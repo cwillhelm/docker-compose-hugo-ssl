@@ -28,8 +28,7 @@ The `/src` directory is where you can modify all of hugo's settings, and when yo
 
 ## Credit to https://github.com/jojomi/docker-hugo for making the base image
 
-This repository was a huge help for getting me started with this, but I felt there were enough gaps to fill and some cum
-bersome usage that I should maintain my own version.
+This repository was a huge help for getting me started with this, but there wasn't a valid working compose file in the repository, and no SSL enabled by default. The container image and scripts were all used from this repository.
 
 
 ## Update Image on Hugo Update
