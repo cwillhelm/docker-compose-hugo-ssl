@@ -1,0 +1,6 @@
+languageCode = "en-en"
+title = "Rusted Bits"
+theme = "ananke"
+disableKinds = ["RSS"]
+copyright = "Shack"
+baseURL= "https://rustedbits.com"
