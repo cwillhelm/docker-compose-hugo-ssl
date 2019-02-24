@@ -25,12 +25,3 @@ HUGO_REFRESH_TIMEOUT=3600
 ## Further Configuration
 
 The `/src` directory is where you can modify all of hugo's settings, and when you re-run the `docker-compose` file those changes will be output to the `output` directory. You can add and reference themes like how you normally would using hugo outside of docker. 
-
-## Credit to https://github.com/jojomi/docker-hugo for making the base image
-
-This repository was a huge help for getting me started with this, but there wasn't a valid working compose file in the repository, and no SSL enabled by default. The container image and scripts were all used from this repository.
-
-
-## Update Image on Hugo Update
-
-```./update.sh [hugo_version_num]```
