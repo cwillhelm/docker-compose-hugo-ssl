@@ -6,7 +6,7 @@ DOMAIN=rustedbits.com
 
 rm -rf $WORKING_DIRECTORY
 
-rsync -aqz ~/rustedbits/ ~/rustedbits_backup
+rsync -aqz $HOME/rustedbits/ $HOME/rustedbits_backup
 rsync -aqz $WORKING_DIRECTORY $HOME/staging_backup
 
 git clone $REPO $WOKRING_DIRECTORY
