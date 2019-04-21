@@ -18,9 +18,9 @@ services:
     volumes:
       - ./output:/var/www
     environment:
-      - VIRTUAL_HOST=
-      - LETSENCRYPT_HOST=
-      - LETSENCRYPT_EMAIL=
+      - VIRTUAL_HOST=rustedbits.com
+      - LETSENCRYPT_HOST=rustedbits.com
+      - LETSENCRYPT_EMAIL=connor.willhelm@gmail.com
     depends_on:
       - hugo
     networks:
