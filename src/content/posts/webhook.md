@@ -9,4 +9,4 @@ title = "test post"
 
 ## This shows that this works
 
-This page was created from a github webhook on push to master branch
+This page was created from a github webhook on push to master branch.
