@@ -1,8 +1,8 @@
 [
     {
         "id": "redeploy",
-        "execute-command": "~/rustedbits/deploy.sh",
-        "command-working-directory": "~/rustedbits",
+        "execute-command": "/home/shack/rustedbits/deploy.sh",
+        "command-working-directory": "/home/shack/rustedbits",
         "pass-arguments-to-command":
         [
             {
