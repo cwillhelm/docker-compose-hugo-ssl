@@ -14,8 +14,8 @@ rsync -aqz $WORKING_DIRECTORY $HOME/staging_backup
 # Get updated version
 git clone $REPO $WOKRING_DIRECTORY
 
-#cd ~/rustedbits/
-#docker-compose down
+cd ~/rustedbits/
+docker-compose down
 
 # Redeploy website
 cd ~/staging
